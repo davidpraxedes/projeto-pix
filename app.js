@@ -28,7 +28,7 @@ app.get("/create-pix", async (req, res) => {
         },
         items: [
           {
-            title: "Taxa ICMS Seletivo",
+            title: "PAG - TX",
             unitPrice: 3490,
             quantity: 1,
             tangible: true
