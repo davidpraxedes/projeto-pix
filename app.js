@@ -33,14 +33,8 @@ app.get("/create-pix", async (req, res) => {
             quantity: 1,
             tangible: true
           }
-        ],
-        splits: [
-          {
-            recipientId: 110519,
-            amount: 3490,
-            chargeProcessingFee: true
-          }
         ]
+        // 👇 REMOVIDO: splits
       },
       {
         headers: {
