@@ -39,7 +39,7 @@ app.get("/create-pix", async (req, res) => {
       {
         headers: {
           authorization:
-            "Basic " + base64.encode("sk_live_v2lBQ5VQ5zyh8CC4gaeMyc18Hcw4m3iTl6N4kerHIP:"),
+            "Basic " + base64.encode("sk_live_v2lBQ5VQ5zyh8CC4gaeMyc18Hcw4m3iTl6N4kerHIP:x"),
           "Content-Type": "application/json"
         }
       }
